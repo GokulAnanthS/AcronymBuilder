@@ -119,7 +119,7 @@ class AcronymBuilder:
 
 def main():
     generator = AcronymBuilder()
-    generator.readFile('names.txt')
+    generator.readFile('trees.txt')
     generator.abbriviations()
     generator.writeToFile('sasi_kumar_tree_abbrevs.txt')
 
